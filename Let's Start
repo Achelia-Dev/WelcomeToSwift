@@ -3,8 +3,12 @@ FOR WHAT ?: Using for creating a variable and give value to variable it can be c
 
 Example:
           var Zenitsu = "Lightning Style"
+          print(Zenitsu)  output---->>>>>>  Lightning Style
                     or
-          var NumberOfZenitsu'sSword = 1    
+          var NumberOfZenitsu'sSword = 1  
+          print(NumberOfZenitsu'sSword)  output---->>>> 1
+
+
 
 
 
