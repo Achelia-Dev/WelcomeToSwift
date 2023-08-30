@@ -9,6 +9,42 @@ Example:
           print(NumberOfZenitsu'sSword)  output---->>>> 1
 
 
+CODE = let 
+FOR WHAT ?: Using for creating a variable and give value to variable it can't be changeable.
+
+Example:
+                    var MyLamboCount = 0 
+                    print(MyLamboCount)
+/*its true btw*/    MyLamboCount = 9999999999
+                            print(MyLamboCount)
+
+OUTPUT----->>>> 0
+                9999999999
+
+//But if u change "var" with "let" things change
+Let's see
+                    let MyLamboCount = 0 
+                    print(MyLamboCount)
+/*its true btw*/    MyLamboCount = 9999999999
+                            print(MyLamboCount)
+
+
+OUTPUT----->>>>  error: cannot assign to value: 'MyLamboCount' is a 'let' constant
+/*its true btw*/  MyLamboCount = 9999999999
+                  ^~~~~~~~~~~~
+main.swift:1:3: note: change 'let' to 'var' to make it mutable
+  let MyLamboCount = 0 
+  ^~~
+  var
+exit status 1
+ 
+
+
+
+
+
+
+          
 
 
 
